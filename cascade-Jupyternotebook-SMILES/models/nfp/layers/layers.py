@@ -1,9 +1,7 @@
 from keras.engine import Layer
 
-from keras.layers import activations
-from keras.layers import initializers
-from keras.layers import regularizers
-from keras.layers import constraints
+
+from keras import activations, initializers, regularizers, constraints
 from keras.layers import Lambda
 
 import tensorflow as tf
